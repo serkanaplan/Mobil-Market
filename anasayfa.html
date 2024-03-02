@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Mobil Market</title>
+    <link href="css/Bootstrap.css" rel="stylesheet" />
+
+</head>
+
+<body id="page-top">
+    <!-- Navigation çubuğu-->
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <img src="img/android.png" height="45px">
+            <a class="navbar-brand" href="#">Mobİl Market </a>
+
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-warning text-dark rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menü</button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#Kategoriler">Kategorİler</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#Hakkimizda">Hakkımızda</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#Bize-Ulasin">Bİze-Ulaşın</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- ilksayfa-->
+    <header class="masthead bg-warning text-dark text-center">
+        <div class="container d-flex align-items-center flex-column">
+            <h1 class="masthead-heading text-uppercase mb-0">Hoşgeldİnİz </h1>
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line "></div>
+                <img class="masthead-avatar mb-1" src="img/phone3.png" height="290px"/>
+                <div class="divider-custom-line "></div>
+            </div>
+            <p class="masthead-subheading font-weight-light mb-0">"İhtiyacınız olan her marka telefon burada. alım, satım ve tamir hizmetlerimizle her zaman yanınızdayız!"</p>
+        </div>
+    </header>
+
+    
+    <!-- kategori sayfası-->
+    <section class="page-section kategori bg-dark" id="Kategoriler">
+        <div class="container">
+            <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Kategorİler</h2>
+            <div class="divider-custom">
+                <div class="divider-custom-line bg-white"></div>
+                <div class="divider-custom-line bg-white"></div>
+            </div>
+
+            <!--kategori eleman konum-->
+            <div class="row justify-content-center">
+                <!-- kategori eleman 1-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="kategori-item mx-auto" data-bs-toggle="modal" data-bs-target="#kategoriModal1">
+                        <div class="kategori-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="kategori-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x">samsung</i></div>
+                        </div>
+                        <img class="img-fluid" src="img/samsung.jpg"/>
+                    </div>
+                </div>
+                <!-- kategori eleman 2-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="kategori-item mx-auto" data-bs-toggle="modal" data-bs-target="#kategoriModal2">
+                        <div class="kategori-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="kategori-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x">iphone</i></div>
+                        </div>
+                        <img class="img-fluid" src="img/iphone.jpg"/>
+                    </div>
+                </div>
+                <!-- kategori eleman 3-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="kategori-item mx-auto" data-bs-toggle="modal" data-bs-target="#kategoriModal3">
+                        <div class="kategori-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="kategori-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x">xiaomi</i></div>
+                        </div>
+                        <img class="img-fluid" src="img/ixiaomi.jpg" />
+                    </div>
+                </div>
+                <!-- kategori eleman 4-->
+                <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                    <div class="kategori-item mx-auto" data-bs-toggle="modal" data-bs-target="#kategoriModal4">
+                        <div class="kategori-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="kategori-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i>oppo</div>
+                        </div>
+                        <img class="img-fluid" src="img/oppo.jpg"/>
+                    </div>
+                </div>
+                <!-- kategori eleman 5-->
+                <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                    <div class="kategori-item mx-auto" data-bs-toggle="modal" data-bs-target="#kategoriModal5">
+                        <div class="kategori-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="kategori-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i>nokia</div>
+                        </div>
+                        <img class="img-fluid" src="img/nokia.jpg"/>
+                    </div>
+                </div>
+                <!-- kategori eleman 6-->
+                <div class="col-md-6 col-lg-4">
+                    <div class="kategori-item mx-auto" data-bs-toggle="modal" data-bs-target="#kategoriModal6">
+                        <div class="kategori-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="kategori-item-caption-content text-center text-white">blackberry<i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="img/bb.jpg"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--hakkımızda sayfası-->
+    <section class="page-section bg-dark bg-gradient text-white mb-0" id="Hakkimizda">
+        <div class="container">
+            <!-- hakkımızda sayfası başlık-->
+            <h2 class="page-section-heading text-center text-uppercase text-white">Hakkımızda</h2>
+            <!--Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <img height="100px" src="img/phone2.png">
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- hakkımızda sayfası içerik-->
+            <div class="row">
+                <div class="col-lg-4 ms-auto">
+                    <p class="lead">İşletmemiz telefon alım satımı ve tamir hizmetleri sunmaktadır. Müşterilerimize yüksek kaliteli ve güvenilir hizmetler sunarak, telefonlarının en iyi şekilde çalışmasını sağlıyoruz. Tamir işlemlerinde profesyonel ve uzman kadromuz, müşteri memnuniyetini her zaman ön planda tutarak hızlı ve etkili çözümler sunmaktadır. Ayrıca, işletmemizin telefon alım satımı bölümü de müşterilerin ihtiyaçlarına uygun telefonları en uygun fiyatlarla sunarak müşterilerimizi memnun etmektedir.</p>
+                </div>
+                <div class="col-lg-4 me-auto">
+                    <p class="lead">İşletmemizin amacı, müşterilerimize her zaman en iyi hizmetleri sunmak ve güvenilir bir telefon alım satımı ve tamir merkezi olmaktır. Bu doğrultuda, işletmemiz müşterilerimizin ihtiyaçlarını anlamak ve en iyi çözümleri sunmak için sürekli olarak kendini geliştirmektedir. Siz de işletmemize güvenebilir ve müşterilerimizin telefonlarının en iyi şekilde çalışmasını sağlamak için bizimle iletişime geçebilirsiniz.</p>
+                </div>
+            </div>
+            <!-- Buton-->
+            <div class="text-center mt-4">
+                <a class="btn btn-xl btn-outline-light" href="#"><i class="fas fa-download me-2"></i>Bizi Daha Yakından Tanıyın</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- iletişim sayfası-->
+    <section class="page-section" id="Bize-Ulasin">
+        <div class="container">
+            <!-- iletişim sayfası başlık-->
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Bİzİmle İletİşİme Geçİn</h2>
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <img src="img/iletisim.png" height="70px">
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- iletişim sayfası Form-->
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-xl-7">
+                    <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                        <!-- ad input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="ad" type="text" placeholder="Adınız" data-sb-validations="required" />
+                            <label for="ad">Adınız</label>
+                        </div>
+                        <!-- Email input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="email" type="email" placeholder="mail" data-sb-validations="required,email" />
+                            <label for="email">Email adresi</label>
+                        </div>
+                        <!-- telefon input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="telefon" type="tel" placeholder="Telefon" data-sb-validations="required,number" />
+                            <label for="telefon">Telefon numarası</label>
+                        </div>
+                        <!-- mesaj input-->
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" id="mesaj" type="text" placeholder="mesaj" style="height: 10rem" data-sb-validations="required"></textarea>
+                            <label for="mesaj">Mesaj</label>
+                        </div>
+                        <!-- buton -->
+                        <button class="btn btn-primary btn-xl" id="submitButton" type="submit">Gönder</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer-->
+    <footer class="footer text-center bg-dark bg-gradient">
+        <div class="container">
+            <div class="row">
+                <!-- Footer konum-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Konum</h4>
+                    <p class="lead mb-0">Cumhuriyet Caddesi 12.Sokak No:15<br />İpekyolu/Van</p>
+                </div>
+                <!-- Footer sosyal medya-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Bizi Sosyal Medyada Takip Edin</h4>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><img src="img/facebook.png" height="45px"></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><img src="img/twitter.png"  height="45px"></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><img src="img/instagram.png" height="45px"></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><img src="img/linkedin.png" height="45px"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- telif hakkı -->
+    <div class="copyright py-4 text-center text-white bg-gradient">
+        <div class="container"><small>Telif hakkı &copy; serkanaplan@gmail.com</small></div>
+    </div>
+
+
+    <!-- kategori mesajbox-->
+    <!-- kategori mesajbox 1-->
+    <div class="kategori-modal modal fade" id="kategoriModal1" tabindex="-1" aria-labelledby="kategoriModal1"
+        aria-hidden="true">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- kategori mesajbox - başlık-->
+                                <h2 class="kategori-modal-title text-secondary text-uppercase mb-0">Samsung</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- kategori mesajbox resim-->
+                                <img class="img-fluid rounded mb-5" src="img/samsung.jpg" alt="..." />
+                                <!-- kategori mesajbox açıklama-->
+                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
+                                    assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
+                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                                </p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal"><i class="fas fa-xmark fa-fw"></i>Pencereyi Kapat
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- kategori Modal 2-->
+    <div class="kategori-modal modal fade" id="kategoriModal2" tabindex="-1" aria-labelledby="kategoriModal2"
+        aria-hidden="true">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- kategori mesajbox - başlık-->
+                                <h2 class="kategori-modal-title text-secondary text-uppercase mb-0">Iphone</h2>
+
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- kategori mesajbox resim-->
+                                <img class="img-fluid rounded mb-5" src="img/iphone.jpg" alt="..." />
+                                <!-- kategori mesajbox açıklama-->
+                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
+                                    assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
+                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                                </p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal"><i class="fas fa-xmark fa-fw"></i>Pencereyi Kapat</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- kategori Modal 3-->
+    <div class="kategori-modal modal fade" id="kategoriModal3" tabindex="-1" aria-labelledby="kategoriModal3"
+        aria-hidden="true">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- kategori mesajbox - başlık-->
+                                <h2 class="kategori-modal-title text-secondary text-uppercase mb-0">İxiaomi</h2>
+
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- kategori mesajbox resim-->
+                                <img class="img-fluid rounded mb-5" src="img/ixiaomi.jpg" alt="..." />
+                                <!-- kategori mesajbox açıklama-->
+                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
+                                    assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
+                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                                </p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal"><i class="fas fa-xmark fa-fw"></i>Pencereyi Kapat</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- kategori Modal 4-->
+    <div class="kategori-modal modal fade" id="kategoriModal4" tabindex="-1" aria-labelledby="kategoriModal4"
+        aria-hidden="true">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- kategori mesajbox - başlık-->
+                                <h2 class="kategori-modal-title text-secondary text-uppercase mb-0">Oppo</h2>
+
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- kategori mesajbox resim-->
+                                <img class="img-fluid rounded mb-5" src="img/oppo.jpg" alt="..." />
+                                <!-- kategori mesajbox açıklama-->
+                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
+                                    assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
+                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                                </p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal"><i class="fas fa-xmark fa-fw"></i>Pencereyi Kapat</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- kategori Modal 5-->
+    <div class="kategori-modal modal fade" id="kategoriModal5" tabindex="-1" aria-labelledby="kategoriModal5"
+        aria-hidden="true">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- kategori mesajbox - başlık-->
+                                <h2 class="kategori-modal-title text-secondary text-uppercase mb-0">Nokia</h2>
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- kategori mesajbox resim-->
+                                <img class="img-fluid rounded mb-5" src="img/nokia.jpg" alt="..." />
+                                <!-- kategori mesajbox açıklama-->
+                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
+                                    assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
+                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                                </p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal"><i class="fas fa-xmark fa-fw"></i>Pencereyi Kapat</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- kategori Modal 6-->
+    <div class="kategori-modal modal fade" id="kategoriModal6" tabindex="-1" aria-labelledby="kategoriModal6"
+        aria-hidden="true">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- kategori mesajbox - başlık-->
+                                <h2 class="kategori-modal-title text-secondary text-uppercase mb-0">Blackberry</h2>
+                               
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- kategori mesajbox resim-->
+                                <img class="img-fluid rounded mb-5" src="img/bb.jpg" alt="..." />
+                                <!-- kategori mesajbox açıklama-->
+                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
+                                    assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
+                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                                </p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">Pencereyi Kapat</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    
+    <!-- navigosyon çubuğu için -->
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
